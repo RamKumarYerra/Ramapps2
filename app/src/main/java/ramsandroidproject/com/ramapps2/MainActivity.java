@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     EditText et2;
     EditText et3;
     EditText et4;
+    Button button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         et2 = (EditText)findViewById(R.id.et2);
         et3 = (EditText)findViewById(R.id.et3);
         et4 = (EditText)findViewById(R.id.et4);
+        button2 = (Button)findViewById(R.id.button2);
 
 
         b1.setOnClickListener(new View.OnClickListener() {

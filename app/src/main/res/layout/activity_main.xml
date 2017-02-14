@@ -60,5 +60,13 @@
         android:layout_gravity="center_horizontal"
         android:background="#e6d822" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10" />
+
 
 </LinearLayout>
